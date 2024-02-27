@@ -69,11 +69,29 @@
 
 //  Smartphones
 @include mediaSm {
-  main#home h1 {
-    margin-top: 10vh;
+  main {
+    padding: 2rem;
+    #home h1 {
+      margin-top: 10vh;
+    }
+
+    .lg-heading {
+      margin-top: 1rem;
+      font-size: 5rem;
+    }
   }
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .boxes {
+    padding: 2.5rem;
+    width: 100%;
+    justify-content: space-evenly;
+    div {
+      font-size: 1.2rem;
+      margin: 2.5rem 3.5rem;
+    }
   }
 }
